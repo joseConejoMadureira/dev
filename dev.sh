@@ -40,7 +40,7 @@ echo 'senha' | sudo -S snap install -y postman
 echo 'senha' | sudo -S apt install -y google-chrome-stable
 echo 'senha' | sudo -S apt install -y default-jre
 echo 'senha' | sudo -S apt install -y microsoft-edge-stable
-echo 'senha' | sudo -S apt-get –fix-broken install -y 
+echo 'senha' | sudo -S apt-get --fix-broken install -y 
 echo 'senha' |sudo  -S npm install -g @angular/cli
 echo 'senha' |sudo  -S npm install -g @vue/cli
 echo 'senha' |sudo  -S npm install -g cli-react
