@@ -3,7 +3,7 @@
 # senha é senha sudo/root de sua maquina
 echo 'senha' | sudo -S apt-get update
 echo 'senha' | sudo -S apt-get upgrade
-echo 'senha' | sudo -S apt install -y software-properties-common
+echo 'senha' | sudo -S apt install -y software-properties-common apt-transport-https wget
 echo 'senha' | sudo -S  add-apt-repository ppa:ondrej/php
 echo 'senha' | sudo -S apt-get update
 echo 'senha' | sudo -S apt-get upgrade
@@ -27,12 +27,20 @@ echo 'senha' | sudo -S apt install -y php-mbstring
 echo 'senha' | sudo -S a2enmod php 
 echo 'senha' | sudo -S service apache2 restart
 echo 'senha' | sudo -S apt install -y postgresql
-echo 'senha' | sudo  -S apt install -y phppgadmin
-echo 'senha' | sudo  -S apt install -y meld
-echo 'senha' | sudo  -S apt install -y openssh-server
-echo 'senha' |sudo  -S apt install -y lm-sensors
-echo 'senha' |sudo  -S apt install -y htop
-echo 'senha' |sudo  -S apt install -y install npm
+echo 'senha' | sudo -S apt install -y phppgadmin
+echo 'senha' | sudo -S apt install -y meld
+echo 'senha' | sudo -S apt install -y openssh-server
+echo 'senha' | sudo -S apt install -y lm-sensors
+echo 'senha' | sudo -S apt install -y htop
+echo 'senha' | sudo -S apt install -y install npm
+echo 'senha' | sudo -S apt install -y composer
+echo 'senha' | sudo -S apt install -y dbeaver-ce
+echo 'senha' | sudo -S apt install -y code
+echo 'senha' | sudo -S snap install -y postman
+echo 'senha' | sudo -S apt install -y google-chrome-stable
+echo 'senha' | sudo -S apt install -y default-jre
+echo 'senha' | sudo -S apt install -y microsoft-edge-stable
+echo 'senha' | sudo -S apt-get –fix-broken install -y 
 echo 'senha' |sudo  -S npm install -g @angular/cli
 echo 'senha' |sudo  -S npm install -g @vue/cli
 echo 'senha' |sudo  -S npm install -g cli-react
