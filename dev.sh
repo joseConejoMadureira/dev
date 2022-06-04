@@ -5,7 +5,9 @@ echo 'senha' | sudo -S apt-get update
 echo 'senha' | sudo -S apt-get upgrade
 echo 'senha' | sudo -S apt install -y software-properties-common
 echo 'senha' | sudo -S add-apt-repository ppa:ondrej/php
+echo 'senha' | sudo -S add-apt-repository ppa:deadsnakes/ppa
 echo 'senha' | sudo -S apt-get update
+echo 'senha' | sudo -S apt install -y python3
 echo 'senha' | sudo -S apt install -y php
 echo 'senha' | sudo -S apt install -y curl
 echo 'senha' | sudo -S apt install -y apache2
