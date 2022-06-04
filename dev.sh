@@ -79,10 +79,9 @@ echo 'senha' | sudo  npm audit fix --force
 #psql
 #\password postgres
 #senha
-#sudo service postgresql restart
-#sudo -i -u postgres
 #CREATE DATABASE baseDados;
-#phppgadmin /etc/phppgadmin/config.inc.php
+#phppgadmin nano /etc/phppgadmin/config.inc.php
 #phppgadmin $conf['extra_login_security'] = false;
+#sudo service postgresql restart
 
 # comanda resolver conflito de dependecias apt-get --fix-broken install 
