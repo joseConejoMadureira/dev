@@ -31,6 +31,7 @@ echo 'senha' | sudo -S apt install -y meld
 echo 'senha' | sudo -S apt install -y openssh-server
 echo 'senha' | sudo -S apt install -y lm-sensors
 echo 'senha' | sudo -S apt install -y htop
+echo 'senha' | sudo -S apt install -y install nodejs
 echo 'senha' | sudo -S apt install -y install npm
 echo 'senha' | sudo -S apt install -y composer
 echo 'senha' | sudo -S apt install -y dbeaver-ce
