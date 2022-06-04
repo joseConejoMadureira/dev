@@ -1,6 +1,7 @@
 # bash para instalação de uma maquina dev.
 # use comando bash dev.sh para inciar a instalação
 # senha é senha sudo/root de sua maquina
+# rodar script apartir da pasta documentos
 
 ###################################repository#####################################
 echo 'senha' | sudo -S apt-get update
