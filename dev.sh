@@ -38,12 +38,12 @@ echo 'senha' | sudo -S apt install -y code
 echo 'senha' | sudo -S snap install postman
 echo 'senha' | sudo -S apt install -y google-chrome-stable
 echo 'senha' | sudo -S apt install -y default-jre
-echo 'senha' |sudo  -S npm install -g @angular/cli
-echo 'senha' |sudo  -S npm install -g @vue/cli
-echo 'senha' |sudo  -S npm install -g cli-react
-echo 'senha' |sudo   npm audit fix --force
+echo 'senha' | sudo -S npm install -g @angular/cli
+echo 'senha' | sudo -S npm install -g @vue/cli
+echo 'senha' | sudo -S npm install -g cli-react
+echo 'senha' | sudo  npm audit fix --force
 
-# comanda resolver conflito de dependecias apt-get --fix-broken install -y 
+# comanda resolver conflito de dependecias apt-get --fix-broken install 
 #sudo -i -u postgres
 #psql
 #\password postgres
