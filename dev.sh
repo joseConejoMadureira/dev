@@ -3,10 +3,9 @@
 # senha é senha sudo/root de sua maquina
 echo 'senha' | sudo -S apt-get update
 echo 'senha' | sudo -S apt-get upgrade
-echo 'senha' | sudo -S apt install -y software-properties-common apt-transport-https wget
+echo 'senha' | sudo -S apt install -y software-properties-common
 echo 'senha' | sudo -S add-apt-repository ppa:ondrej/php
 echo 'senha' | sudo -S apt-get update
-echo 'senha' | sudo -S apt-get upgrade
 echo 'senha' | sudo -S apt install -y php
 echo 'senha' | sudo -S apt install -y curl
 echo 'senha' | sudo -S apt install -y apache2
@@ -36,10 +35,9 @@ echo 'senha' | sudo -S apt install -y install npm
 echo 'senha' | sudo -S apt install -y composer
 echo 'senha' | sudo -S apt install -y dbeaver-ce
 echo 'senha' | sudo -S apt install -y code
-echo 'senha' | sudo -S snap install -y postman
+echo 'senha' | sudo -S snap install postman
 echo 'senha' | sudo -S apt install -y google-chrome-stable
 echo 'senha' | sudo -S apt install -y default-jre
-
 echo 'senha' |sudo  -S npm install -g @angular/cli
 echo 'senha' |sudo  -S npm install -g @vue/cli
 echo 'senha' |sudo  -S npm install -g cli-react
