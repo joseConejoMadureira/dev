@@ -2,7 +2,7 @@
 # use comando bash dev.sh para inciar a instalação
 # senha é senha sudo/root de sua maquina
 # rodar script apartir da pasta documentos
-
+# nao rodar o scrit no usu sudo/root 
 ###################################repository#####################################
 echo 'senha' | sudo -S apt-get update
 echo 'senha' | sudo -S apt-get upgrade
