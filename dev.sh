@@ -88,7 +88,7 @@ echo 'senha' | sudo -S apt-get autoclean
 #\password postgres
 #senha
 #CREATE DATABASE baseDados;
-#phppgadmin nano /etc/phppgadmin/config.inc.php
+#phppgadmin code /etc/phppgadmin/config.inc.php
 #phppgadmin $conf['extra_login_security'] = false;
 #sudo service postgresql restart
 
