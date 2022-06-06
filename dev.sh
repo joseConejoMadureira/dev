@@ -84,7 +84,7 @@ echo 'senha' | sudo -S apt-get upgrade
 echo 'senha' | sudo -S apt-get autoremove
 echo 'senha' | sudo -S apt-get autoclean
 
-###########################configuracao phppgadmin senha e base dados###################################
+###########################configuracao phppgadmin e git config senha e base dados###################################
 Purple='\033[0;35m'
 NC='\033[0m' # No Color
 
@@ -101,5 +101,14 @@ echo 'code /etc/phppgadmin/config.inc.php'
 echo '$conf['extra_login_security'] = false;'
 echo 'sudo service postgresql restart'
 echo 'comando resolver conflito de dependecias: apt-get --fix-broken install'
+
+echo '***git***'
+
+printf " ${Purple}***git config***${NC} \n" 
+
+echo 'git config --global user.email you@example.com'
+echo 'git config --global user.name Your Name'
+
+printf " ${Purple}***git config***${NC} \n" 
 
 printf " ${Purple}*****************configuracao phppgadmin senha e base dados ************************${NC} \n" 
