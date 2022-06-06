@@ -81,15 +81,20 @@ echo 'senha' | sudo -S apt-get upgrade
 echo 'senha' | sudo -S apt-get autoremove
 echo 'senha' | sudo -S apt-get autoclean
 
-###############################config phppgadmin e pg ############################
+###########################configuracao phppgadmin senha e base dados###################################
+Purple='\033[0;35m'
+NC='\033[0m' # No Color
 
-#sudo -i -u postgres
-#psql
-#\password postgres
-#senha
-#CREATE DATABASE baseDados;
-#phppgadmin code /etc/phppgadmin/config.inc.php
-#phppgadmin $conf['extra_login_security'] = false;
-#sudo service postgresql restart
+printf " ${Purple}*****************configuracao phppgadmin senha e base dados************************${NC} \n"
 
-# comanda resolver conflito de dependecias apt-get --fix-broken install 
+echo 'sudo -i -u postgres'
+echo 'psql'
+echo '\password postgres'
+echo 'senha'
+echo 'CREATE DATABASE baseDados;'
+echo 'phppgadmin code /etc/phppgadmin/config.inc.php'
+echo 'phppgadmin $conf['extra_login_security'] = false;'
+echo 'sudo service postgresql restart'
+echo 'comando resolver conflito de dependecias: apt-get --fix-broken install'
+
+printf " ${Purple}*****************configuracao phppgadmin senha e base dados ************************${NC} \n" 
