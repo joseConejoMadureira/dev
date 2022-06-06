@@ -24,6 +24,7 @@ echo 'senha' | sudo -S apt install -y  snapd
 echo 'senha' | sudo -S apt install -y default-jre
 echo 'senha' | sudo -S apt install -y software-properties-common
 echo 'senha' | sudo -S apt install -y  code
+echo 'senha' | sudo -S apt install -y microsoft-edge-stable
 echo 'senha' | sudo -S apt install -y meld
 echo 'senha' | sudo touch /home/diff.py
 echo 'senha' | sudo  chmod 777 /home/diff.py
@@ -82,6 +83,7 @@ echo 'senha' | sudo  npm audit fix --force
 ########################### atualizacao e limpeza ###################################
 
 echo 'senha' | sudo -S apt-get update
+echo 'senha' | sudo -S apt-get --fix-broken install
 echo 'senha' | sudo -S apt-get upgrade
 echo 'senha' | sudo -S apt-get autoremove
 echo 'senha' | sudo -S apt-get autoclean
