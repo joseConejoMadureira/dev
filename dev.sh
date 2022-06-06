@@ -103,7 +103,6 @@ echo '$conf['extra_login_security'] = false;'
 echo 'sudo service postgresql restart'
 echo 'comando resolver conflito de dependecias: apt-get --fix-broken install'
 
-echo '***git***'
 
 printf " ${Purple}***git config***${NC} \n" 
 
