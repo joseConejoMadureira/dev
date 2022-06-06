@@ -92,8 +92,10 @@ echo 'psql'
 echo '\password postgres'
 echo 'senha'
 echo 'CREATE DATABASE baseDados;'
-echo 'phppgadmin code /etc/phppgadmin/config.inc.php'
-echo 'phppgadmin $conf['extra_login_security'] = false;'
+
+echo 'config phppgadmin  $conf['extra_login_security'] para false'
+echo 'code /etc/phppgadmin/config.inc.php'
+echo '$conf['extra_login_security'] = false;'
 echo 'sudo service postgresql restart'
 echo 'comando resolver conflito de dependecias: apt-get --fix-broken install'
 
