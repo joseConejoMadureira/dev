@@ -67,6 +67,8 @@ echo 'senha' | sudo -S apt install -y composer
 
 echo 'senha' | sudo -S apt install -y npm
 echo 'senha' | sudo -S npm  cache clean -f
+echo 'senha' | sudo -S npm install --location=global npm@latest
+echo 'senha' | sudo -S npm  cache clean -f
 echo 'senha' | sudo -S npm install -g n
 echo 'senha' | sudo -S sudo n stable
 echo 'senha' | sudo -S npm install -g @angular/cli
