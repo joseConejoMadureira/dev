@@ -30,7 +30,6 @@ echo 'senha' | sudo echo  "#!/usr/bin/python import sys import os os.system(‘m
 echo 'senha' | sudo  chmod +x /home/diff.py
 git config --global diff.external /home/diff.py
 git config --global merge.tool meld
-git config pull.rebase false
 echo 'senha' | sudo -S apt install -y openssh-server
 echo 'senha' | sudo -S apt install -y lm-sensors
 echo 'senha' | sudo -S apt install -y dbeaver-ce
