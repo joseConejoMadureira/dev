@@ -30,6 +30,7 @@ echo 'senha' | sudo -S apt install -y dbeaver-ce
 echo 'senha' | sudo -S  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo dpkg -i google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo rm google-chrome-stable_current_amd64.deb
+echo 'senha' | sudo -S  wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 echo 'senha' | sudo touch /home/diff.py
 echo 'senha' | sudo  chmod 777 /home/diff.py
 echo 'senha' | sudo echo  "#!/usr/bin/python import sys import os os.system(‘meld “%s” “%s”’ % (sys.argv[2], sys.argv[5]))" > /home/diff.py
