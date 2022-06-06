@@ -74,6 +74,13 @@ echo 'senha' | sudo -S npm install -g @vue/cli
 echo 'senha' | sudo -S npm install -g cli-react
 echo 'senha' | sudo  npm audit fix --force
 
+########################### atualizacao e limpeza ###################################
+
+echo 'senha' | sudo -S apt-get update
+echo 'senha' | sudo -S apt-get upgrade
+echo 'senha' | sudo -S apt-get autoremove
+echo 'senha' | sudo -S apt-get autoclean
+
 ###############################config phppgadmin e pg ############################
 
 #sudo -i -u postgres
