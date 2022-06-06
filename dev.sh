@@ -3,12 +3,19 @@
 # senha é senha sudo/root de sua maquina
 # rodar script apartir da pasta documentos
 # nao rodar o scrit no usu sudo/root 
-###################################repository#####################################
+###################################repository/vscode#####################################
 echo 'senha' | sudo -S apt-get update
 echo 'senha' | sudo -S apt-get upgrade
 echo 'senha' | sudo -S add-apt-repository ppa:ondrej/php
 echo 'senha' | sudo -S add-apt-repository ppa:deadsnakes/ppa
 echo 'senha' | sudo -S add-apt-repository ppa:serge-rider/dbeaver-ce
+echo 'senha' | sudo -S sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+echo 'senha' | sudo -S wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+echo 'senha' | sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+echo 'senha' | sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+echo 'senha' | sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+echo 'senha' | sudo rm -f packages.microsoft.gpg
 echo 'senha' | sudo -S apt-get update
 
 ######################### feramentas ############################################
@@ -16,14 +23,13 @@ echo 'senha' | sudo -S apt-get update
 echo 'senha' | sudo -S apt install -y  snapd
 echo 'senha' | sudo -S apt install -y default-jre
 echo 'senha' | sudo -S apt install -y software-properties-common
-
-echo 'senha' | sudo apt-get install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-echo 'senha' | sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
-echo 'senha' | sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-echo 'senha' | sudo rm -f packages.microsoft.gpg
-echo 'senha' | sudo -S apt install -y code
 echo 'senha' | sudo -S apt install -y meld
+echo 'senha' | sudo touch /home/diff.py
+echo 'senha' | sudo  chmod 777 /home/diff.py
+echo 'senha' | sudo echo  "#!/usr/bin/python import sys import os os.system(‘meld “%s” “%s”’ % (sys.argv[2], sys.argv[5]))" > /home/diff.py
+echo 'senha' | sudo  chmod +x /home/diff.py
+git config --global diff.external /home/diff.py
+git config --global merge.tool meld
 echo 'senha' | sudo -S apt install -y openssh-server
 echo 'senha' | sudo -S apt install -y lm-sensors
 echo 'senha' | sudo -S apt install -y dbeaver-ce
@@ -31,12 +37,7 @@ echo 'senha' | sudo -S  wget https://dl.google.com/linux/direct/google-chrome-st
 echo 'senha' | sudo dpkg -i google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo rm google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo -S  wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
-echo 'senha' | sudo touch /home/diff.py
-echo 'senha' | sudo  chmod 777 /home/diff.py
-echo 'senha' | sudo echo  "#!/usr/bin/python import sys import os os.system(‘meld “%s” “%s”’ % (sys.argv[2], sys.argv[5]))" > /home/diff.py
-echo 'senha' | sudo  chmod +x /home/diff.py
-git config --global diff.external /home/diff.py
-git config --global merge.tool meld
+
 
 #############################php/python/pg###########################################################
 
