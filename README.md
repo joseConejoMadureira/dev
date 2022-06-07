@@ -8,6 +8,8 @@ Scritp para instalação e preparação de ambiente de desenvolvimento
  rodar script apartir da pasta documentos
  
  nao rodar o script no usu sudo/root
+
+Faz atualização e limpeza do ambiente baseado em debia. update  upgrade auto-clear
 ## Instalação ferramentas 
 ```
 vscode -- configurado para mergetool
