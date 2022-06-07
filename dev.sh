@@ -4,8 +4,8 @@
 # rodar script apartir da pasta documentos
 # nao rodar o scrit no usu sudo/root 
 ###################################repository/vscode#####################################
-echo 'senha' | sudo -S apt-get update
-echo 'senha' | sudo -S apt-get upgrade
+echo 'senha' | sudo -S apt-get update 
+echo 'senha' | sudo -S apt-get upgrade -y
 echo 'senha' | sudo -S add-apt-repository ppa:ondrej/php
 echo 'senha' | sudo -S add-apt-repository ppa:deadsnakes/ppa
 echo 'senha' | sudo -S add-apt-repository ppa:serge-rider/dbeaver-ce
@@ -82,8 +82,8 @@ echo 'senha' | sudo  npm audit fix --force
 ########################### atualizacao e limpeza ###################################
 
 echo 'senha' | sudo -S apt-get update
-echo 'senha' | sudo -S apt-get --fix-broken install
-echo 'senha' | sudo -S apt-get upgrade
+echo 'senha' | sudo -S apt-get --fix-broken install -y
+echo 'senha' | sudo -S apt-get upgrade -y
 echo 'senha' | sudo -S apt-get autoremove
 echo 'senha' | sudo -S apt-get autoclean
 
