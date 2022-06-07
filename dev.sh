@@ -68,16 +68,17 @@ echo 'senha' | sudo -S apt install -y composer
 
 ########################### npm/node/angular/vue/react###################################
 
-echo 'senha' | sudo -S apt install -y npm
+echo 'senha' | sudo -S apt install -y npm 
 echo 'senha' | sudo -S npm  cache clean -f
 echo 'senha' | sudo -S npm install --location=global npm@latest
 echo 'senha' | sudo -S npm  cache clean -f
-echo 'senha' | sudo -S npm install --location=global  n
+echo 'senha' | sudo -S npm install -g  n
 echo 'senha' | sudo -S sudo n stable
 echo 'senha' | sudo -S npm install --location=global @angular/cli
 echo 'senha' | sudo -S npm install --location=global @vue/cli
 echo 'senha' | sudo -S npm install --location=global cli-react
 echo 'senha' | sudo  npm audit fix --force
+
 
 ########################### atualizacao e limpeza ###################################
 
