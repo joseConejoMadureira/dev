@@ -105,12 +105,13 @@ echo '$conf['extra_login_security'] = false;'
 echo 'sudo service postgresql restart'
 echo 'comando resolver conflito de dependecias: apt-get --fix-broken install'
 
+BBlue='\033[1;34m' 
 
-printf " ${Purple}***git config***${NC} \n" 
+printf " ${BBlue}***git config***${NC} \n" 
 
 echo 'git config --global user.email you@example.com'
 echo 'git config --global user.name Your Name'
 
-printf " ${Purple}***git config***${NC} \n" 
+printf " ${BBlue}***git config***${NC} \n" 
 
 printf " ${Purple}*****************configuracao phppgadmin senha e base dados ************************${NC} \n" 
