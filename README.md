@@ -1,5 +1,5 @@
 # SCRIPT SH
-Scritp para instalação e preparação de ambiente de desenvolvimento
+Script para instalação e preparação de ambiente de desenvolvimento
 
 Pre-requistos:
 OS/SO baseado em debian 
