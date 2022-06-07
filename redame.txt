@@ -20,6 +20,7 @@ OS/SO baseado em debian
 vscode 
 meld -- configurado para mergetool
 chrome
+joplin
 ```
 ## Banco de dados
 ```
