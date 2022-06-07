@@ -1,5 +1,8 @@
 # SCRIPT SH
 Scritp para instalação e preparação de ambiente de desenvolvimento
+
+Pre-requistos:
+OS/SO baseado em debian 
 ##  script
  use comando bash dev.sh para inciar a instalação
 
@@ -9,7 +12,7 @@ Scritp para instalação e preparação de ambiente de desenvolvimento
  
  nao rodar o script no usu sudo/root
 
-Faz atualização e limpeza do ambiente baseado em debia. update  upgrade auto-clear
+ atualização e limpeza do ambiente baseado em debian. update  upgrade auto-clear
 ## Instalação ferramentas 
 ```
 vscode -- configurado para mergetool
