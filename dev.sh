@@ -34,7 +34,7 @@ git config --global merge.tool meld
 git config --global pull.rebase false
 echo 'senha' | sudo -S apt install -y openssh-server
 echo 'senha' | sudo -S apt install -y lm-sensors
-echo 'senha' | sudo -S apt install -y dbeaver-ce
+#echo 'senha' | sudo -S apt install -y dbeaver-ce
 echo 'senha' | sudo -S  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo dpkg -i google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo rm google-chrome-stable_current_amd64.deb
