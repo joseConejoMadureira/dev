@@ -1,6 +1,8 @@
 # SCRIPT SH
 Script para instalação e preparação de ambiente de desenvolvimento
 
+ atualização e limpeza do ambiente baseado em debian. update  upgrade auto-clear
+ 
 Pre-requistos:
 OS/SO baseado em debian 
 ##  script
@@ -12,7 +14,7 @@ OS/SO baseado em debian
  
  nao rodar o script no usu sudo/root
 
- atualização e limpeza do ambiente baseado em debian. update  upgrade auto-clear
+
 ## Instalação ferramentas 
 ```
 vscode 
