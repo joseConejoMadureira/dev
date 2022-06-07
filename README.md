@@ -2,9 +2,12 @@
 Scritp para instalação e preparação de ambiente de desenvolvimento
 ##  script
  use comando bash dev.sh para inciar a instalação
- senha é senha sudo/root de sua maquina
+
+ senha é senha sudo/root de sua maquina 
+ 
  rodar script apartir da pasta documentos
- nao rodar o script no usu sudo/root 
+ 
+ nao rodar o script no usu sudo/root
 ## Instalação ferramentas 
 ```
 vscode
