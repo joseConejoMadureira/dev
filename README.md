@@ -10,7 +10,7 @@ Scritp para instalação e preparação de ambiente de desenvolvimento
  nao rodar o script no usu sudo/root
 ## Instalação ferramentas 
 ```
-vscode -- ja configurado para mergetool
+vscode -- configurado para mergetool
 meld
 chrome
 ```
