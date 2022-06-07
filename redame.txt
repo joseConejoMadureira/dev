@@ -15,8 +15,8 @@ OS/SO baseado em debian
  atualização e limpeza do ambiente baseado em debian. update  upgrade auto-clear
 ## Instalação ferramentas 
 ```
-vscode -- configurado para mergetool
-meld
+vscode 
+meld -- configurado para mergetool
 chrome
 ```
 ## Banco de dados
