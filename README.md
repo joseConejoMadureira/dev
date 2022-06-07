@@ -1,4 +1,4 @@
-# Scritp sh
+# SCRIPT SH
 Scritp para instalação e preparação de ambiente de desenvolvimento
 ##  script
  use comando bash dev.sh para inciar a instalação
@@ -10,7 +10,7 @@ Scritp para instalação e preparação de ambiente de desenvolvimento
  nao rodar o script no usu sudo/root
 ## Instalação ferramentas 
 ```
-vscode
+vscode -- ja configurado para mergetool
 meld
 chrome
 ```
