@@ -38,7 +38,7 @@ echo 'senha' | sudo -S apt install -y lm-sensors
 echo 'senha' | sudo -S  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo dpkg -i google-chrome-stable_current_amd64.deb
 echo 'senha' | sudo rm google-chrome-stable_current_amd64.deb
-echo 'senha' | sudo -S  wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
 
 
 #############################php/python/pg###########################################################
