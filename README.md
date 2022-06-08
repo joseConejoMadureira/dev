@@ -13,7 +13,7 @@ OS/SO baseado em debian
  
  rodar script apartir da pasta documentos
  
- nao rodar o script no usu sudo/root
+ rodar o script no usu sudo/root
 
 ## Instalação ferramentas 
 ```
