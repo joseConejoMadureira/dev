@@ -24,16 +24,14 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
  sudo  apt install -y software-properties-common
  sudo  apt install -y  code
  sudo  apt install -y meld
- sleep 1
  sudo touch /home/diff.py
  sudo  chmod 777 /home/diff.py
  sudo echo  "#!/usr/bin/python import sys import os os.system(\u2018meld \u201c%s\u201d \u201c%s\u201d\u2019 % (sys.argv[2], sys.argv[5]))" > /home/diff.py
-sudo  chmod +x /home/diff.py
-sleep 1
-git config --global diff.external /home/diff.py
-git config --global merge.tool meld
-git config --global pull.rebase false
-sleep 1
+ sudo  chmod +x /home/diff.py
+ sudo git config --global diff.external /home/diff.py
+ git config --global merge.tool meld
+ git config --global pull.rebase false
+
 sudo  apt install -y openssherver
 sudo  apt install -y lmensors
 # sudo  apt install -y dbeaver-ce
