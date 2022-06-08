@@ -1,15 +1,13 @@
-# bash para instalação de uma maquina dev.
-# use comando bash dev.sh para inciar a instalação
+# bash para instala\u00e7\u00e3o de uma maquina dev.
+# use comando bash dev.sh para inciar a instala\u00e7\u00e3o
 # rodar script apartir da pasta documentos
 #  rodar o scrit como sudo/root
 ###################################repository/vscode#####################################
  sudo  apt-get update 
  sudo  apt-get upgrade -y
- sudo  add-apt-repository ppa:ondrej/php
- sudo  add-apt-repository ppa:deadsnakes/ppa
- sudo  add-apt-repository ppa:serge-rider/dbeaver-ce
- sudo  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
- sudo  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ sudo echo  -S | add-apt-repository ppa:ondrej/php
+ sudo echo  -S | add-apt-repository ppa:deadsnakes/ppa
+ sudo echo  -S |  add-apt-repository ppa:serge-rider/dbeaver-ce
  sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
@@ -19,6 +17,8 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
 
 ######################### feramentas ############################################
 
+ sleep 3
+
  sudo  apt install -y  snapd
  sudo  apt install -y default-jre
  sudo  apt install -y software-properties-common
@@ -26,21 +26,19 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
  sudo  apt install -y meld
  sudo touch /home/diff.py
  sudo  chmod 777 /home/diff.py
- sudo echo  "#!/usr/bin/python import sys import os os.system(‘meld “%s” “%s”’ % (sys.argv[2], sys.argv[5]))" > /home/diff.py
- sudo  chmod +x /home/diff.py
+ sudo echo  "#!/usr/bin/python import sys import os os.system(\u2018meld \u201c%s\u201d \u201c%s\u201d\u2019 % (sys.argv[2], sys.argv[5]))" > /home/diff.py
+sudo  chmod +x /home/diff.py
 git config --global diff.external /home/diff.py
 git config --global merge.tool meld
 git config --global pull.rebase false
- sudo  apt install -y openssherver
- sudo  apt install -y lmensors
+sudo  apt install -y openssherver
+sudo  apt install -y lmensors
 # sudo  apt install -y dbeaver-ce
- sudo   wget https://dl.google.com/linux/direct/google-chrometable_current_amd64.deb
- sudo dpkg -i google-chrometable_current_amd64.deb
- sudo rm google-chrometable_current_amd64.deb
-wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
+sudo wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
 
 
 #############################php/python/pg###########################################################
+ sleep 3
 
  sudo  apt install -y python3
  sudo  apt install -y php
@@ -66,6 +64,7 @@ wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_insta
  sudo  apt install -y composer
 
 ########################### npm/node/angular/vue/react###################################
+ sleep 3
 
  sudo  apt install -y npm 
  sudo  npm  cache clean -f
@@ -80,6 +79,8 @@ wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_insta
 
 
 ########################### atualizacao e limpeza ###################################
+
+ sleep 3
 
  sudo  apt-get update
  sudo  apt-get --fix-broken install -y
