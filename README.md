@@ -59,7 +59,7 @@ react cli
 vue cli
 ```
 ## Configuração servidor de aplicação apache
-### codigo fonte laravel deve estar uma pasta anteior da pasta dev
+### codigo fonte laravel deve estar uma pasta anteior a pasta dev
 
 
 ```
