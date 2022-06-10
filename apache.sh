@@ -39,3 +39,14 @@ sudo a2dissite 000-default.conf
 sudo a2ensite $varname
 sudo a2enmod rewrite
 sudo systemctl restart apache2
+
+Purple='\033[0;35m'
+NC='\033[0m' # No Color
+printf " ${Purple}******************diretorio projeto laravel*******************************${NC} \n"
+cd /var/www/html/$varname
+pwd
+cd /etc/apache2/sites-available
+printf " ${Purple}******************diretorio apache siste-available: **********************${NC} \n"
+pwd
+printf " ${Purple}******************conteudo pasta sites-available: ************************${NC} \n"
+dir
