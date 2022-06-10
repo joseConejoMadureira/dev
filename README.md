@@ -58,3 +58,12 @@ angular cli
 react cli
 vue cli
 ```
+## Configuração servidor de aplicação apache
+### codigo fonte laravel deve estar uma pasta anteior da pasta dev
+
+
+```
+
+sudo bash apache.sh
+
+```
