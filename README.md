@@ -57,6 +57,12 @@ nodejs
 angular cli
 react cli
 vue cli
+json server
+```
+## Instalção Docker 
+### versão estavel mais recente
+```
+docker
 ```
 ## Configuração servidor de aplicação apache
 ### codigo fonte laravel deve estar uma pasta anteior a pasta dev
