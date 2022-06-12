@@ -63,6 +63,7 @@ json server
 ### versão estavel mais recente
 ```
 docker
+docker-compose
 ```
 ## Configuração servidor de aplicação apache
 ### codigo fonte laravel deve estar uma pasta anteior a pasta dev
