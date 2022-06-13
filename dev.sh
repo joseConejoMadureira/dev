@@ -74,6 +74,7 @@ sudo  apt install -y lmensors
  sudo  npm install --location=global @vue/cli
  sudo  npm install --location=global cli-react
  sudo  npm install --location=global json-server
+ sudo  npm install --location=global typescript
  sudo  npm audit fix --force
 
 ########################### docker ###################################
