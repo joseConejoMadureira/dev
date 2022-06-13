@@ -58,6 +58,7 @@ angular cli
 react cli
 vue cli
 json server
+typescript
 ```
 ## Instalção Docker 
 ### versão estavel mais recente
