@@ -59,6 +59,7 @@ react cli
 vue cli
 json server
 typescript
+yarn
 ```
 ## Instalção Docker 
 ### versão estavel mais recente

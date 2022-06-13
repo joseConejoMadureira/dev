@@ -59,4 +59,5 @@ react cli
 vue cli
 json serve
 typescript
+yarn
 ```
