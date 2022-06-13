@@ -69,12 +69,13 @@ sudo  apt install -y lmensors
  sudo  npm install --location=global npm@latest
  sudo  npm  cache clean -f
  sudo  npm install -g  n
- sudo  sudo n stable
+ sudo  n stable
  sudo  npm install --location=global @angular/cli
  sudo  npm install --location=global @vue/cli
  sudo  npm install --location=global cli-react
  sudo  npm install --location=global json-server
  sudo  npm install --location=global typescript
+ sudo  npm install --location=global yarn
  sudo  npm audit fix --force
 
 ########################### docker ###################################
