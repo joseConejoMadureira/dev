@@ -61,3 +61,4 @@ json serve
 typescript
 yarn
 ```
+update.sh faz update upgrade e limpeza 
