@@ -48,6 +48,7 @@ postgresql
  php-mbstring
  composer
  phppgadmin
+ php xdebug
 ```
 ## Instalção NPM 
 ### versão estavel mais recente
@@ -60,6 +61,7 @@ vue cli
 json server
 typescript
 yarn
+
 ```
 ## Instalção Docker 
 ### versão estavel mais recente
