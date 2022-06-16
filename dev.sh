@@ -43,7 +43,7 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
 sudo  apt install -y openssherver
 sudo  apt install -y lmensors
 # sudo  apt install -y dbeaver-ce
-
+sudo  apt install -y flameshot
 
 #############################php/python/pg###########################################################
  sleep 3
