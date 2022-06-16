@@ -60,6 +60,7 @@ sudo  apt install -y lmensors
  sudo  apt install -y postgresql
  sudo  apt install -y phppgadmin
  sudo  apt install -y composer
+ sudo  apt install -y php-xdebug
 
 ########################### npm/node/angular/vue/react###################################
  sleep 3
