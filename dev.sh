@@ -2,10 +2,16 @@
 # use comando bash dev.sh para inciar a instala\u00e7\u00e3o
 # rodar script apartir da pasta documentos
 #  rodar o scrit como sudo/root
-echo "desligar ao encerrar o processo?"
-echo "digite: sim para desligar ao termino do processo"
-echo "digite: não para nãp desligar ao termino do processo"
+Purple='\033[0;35m'
+NC='\033[0m' # No Color
+
+printf "${Purple}*************************************************************${NC} \n"
+echo "   desligar ao encerrar o processo?"
+echo "   digite: sim para desligar ao termino do processo"
+echo "   digite: não para nãp desligar ao termino do processo"
+printf "${Purple}*************************************************************${NC} \n"
 read varname
+
 ###################################repository/vscode#####################################
  sudo  apt-get update 
  sudo  apt-get upgrade -y
@@ -133,6 +139,7 @@ echo   'git config --global pull.rebase false'
 printf " ${BBlue}***git config***${NC} \n" 
 
 printf " ${Purple}*****************configuracao phppgadmin senha e base dados ************************${NC} \n" 
+
 if [ "$varname" == "sim" ]; then
 shutdown
 fi    
