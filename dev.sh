@@ -93,6 +93,7 @@ sudo apt install -y jenkins
  sudo  npm install --location=global typescript
  sudo  npm install --location=global yarn
  sudo npm install --location=global newman
+ sudo npm install --location=global gulp-cli
  sudo  npm audit fix --force
 
 ########################### docker ###################################
