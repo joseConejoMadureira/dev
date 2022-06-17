@@ -76,6 +76,7 @@ sudo apt install -y mysql-server
  sudo  apt install -y phppgadmin
  sudo  apt install -y composer
  sudo  apt install -y php-xdebug
+ sudo  apt install -y php-mysql
 
 ########################### npm/node/angular/vue/react###################################
  sleep 3
