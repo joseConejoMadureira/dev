@@ -87,6 +87,7 @@ sudo  apt install -y flameshot
  sudo  npm install --location=global json-server
  sudo  npm install --location=global typescript
  sudo  npm install --location=global yarn
+ sudo npm install --location=global newman
  sudo  npm audit fix --force
 
 ########################### docker ###################################
