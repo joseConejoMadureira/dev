@@ -10,7 +10,7 @@ read varname
 
  sudo  apt-get update
  sudo  apt-get upgrade -y
- sudo  apt-get autoremove
+ sudo  apt-get autoremove -y
  sudo  apt-get autoclean
 
 if [ "$varname" == "sim" ]; then
