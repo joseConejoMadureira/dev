@@ -23,6 +23,10 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
  sudo rm -f packages.microsoft.gpg
+ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+ 
  sudo  apt-get update
 
 ######################### feramentas ############################################
@@ -44,6 +48,7 @@ sudo  apt install -y openssherver
 sudo  apt install -y lmensors
 # sudo  apt install -y dbeaver-ce
 sudo  apt install -y flameshot
+sudo apt install -y jenkins
 
 #############################php/python/pg###########################################################
  sleep 3
