@@ -49,7 +49,7 @@ sudo  apt install -y lmensors
 # sudo  apt install -y dbeaver-ce
 sudo  apt install -y flameshot
 sudo apt install -y jenkins
-
+sudo apt install -y mysql-server
 #############################php/python/pg###########################################################
  sleep 3
 
