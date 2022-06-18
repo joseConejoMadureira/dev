@@ -50,6 +50,7 @@ sudo  apt install -y lmensors
 sudo  apt install -y flameshot
 sudo apt install -y jenkins
 sudo apt install -y mysql-server
+sudo apt install -y  bsdgames
 #############################php/python/pg###########################################################
  sleep 3
 
