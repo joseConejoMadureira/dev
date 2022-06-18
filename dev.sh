@@ -114,6 +114,8 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v portainer_data:/data \
     portainer/portainer-ce:2.9.3
+
+   
 ########################### portainer ###################################
 
 ########################### atualizacao e limpeza ###################################
@@ -157,6 +159,11 @@ echo   'git config --global pull.rebase false'
 printf " ${BBlue}***git config***${NC} \n" 
 
 printf " ${Purple}*****************configuracao phppgadmin senha e base dados ************************${NC} \n" 
+printf " ${Purple}*****************portainer username/password************************${NC} \n"
+echo   'username: admin'
+echo   'password: Zezinho@15'
+
+printf " ${Purple}*****************configuracao phppgadmin senha e base dados************************${NC} \n"
 
 if [ "$varname" == "sim" ]; then
 shutdown
