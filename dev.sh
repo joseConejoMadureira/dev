@@ -163,7 +163,7 @@ printf " ${Purple}*****************portainer username/password******************
 echo   'username: admin'
 echo   'password: Zezinho@15'
 
-printf " ${Purple}*****************configuracao phppgadmin senha e base dados************************${NC} \n"
+printf " ${Purple}*****************portainer username/password************************${NC} \n"
 
 if [ "$varname" == "sim" ]; then
 shutdown
