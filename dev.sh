@@ -17,8 +17,9 @@ read varname
  sudo  apt-get upgrade -y
  sudo echo  -S | add-apt-repository ppa:ondrej/php
  sudo echo  -S | add-apt-repository ppa:deadsnakes/ppa
- sudo echo  -S |  add-apt-repository ppa:serge-rider/dbeaver-ce
- sudo apt-get install wget gpg
+ sudo echo  -S | add-apt-repository ppa:serge-rider/dbeaver-ce
+ sudo echo  -S | sudo add-apt-repository universe 
+sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
@@ -54,6 +55,8 @@ sudo apt install -y jenkins
 sudo apt install -y mysql-server
 sudo apt install -y  bsdgames
 sudo apt install -y  hardinfo
+sudo apt install -y libfuse2
+
 
 #############################php/python/pg###########################################################
  sleep 3
