@@ -53,6 +53,8 @@ sudo  apt install -y flameshot
 sudo apt install -y jenkins
 sudo apt install -y mysql-server
 sudo apt install -y  bsdgames
+sudo apt install -y  hardinfo
+
 #############################php/python/pg###########################################################
  sleep 3
 
