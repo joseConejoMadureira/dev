@@ -114,13 +114,16 @@ sudo apt update
 sudo apt install -y docker-ce
 sudo apt install -y docker-compose
 
-########################## aws  #######################################
+########################## aws cli  #######################################
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
-######################### azure ######################################
+######################### azure cli  ######################################
 
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+########################## github cli ################################
+sudo apt  install -y  gh
 
 ########################### atualizacao e limpeza ###################################
 
