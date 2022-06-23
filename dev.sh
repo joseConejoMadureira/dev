@@ -50,6 +50,7 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
 sudo  apt install -y openssherver
 sudo  apt install -y lmensors
 # sudo  apt install -y dbeaver-ce
+sudo snap install dbeaver-ce
 sudo  apt install -y flameshot
 sudo apt install -y jenkins
 sudo apt install -y mysql-server
