@@ -56,7 +56,10 @@ sudo apt install -y mysql-server
 sudo apt install -y  bsdgames
 sudo apt install -y  hardinfo
 sudo apt install -y libfuse2
-
+sudo snap install postman
+sudo snap install  discord
+sudo snap install mysql-workbench-community
+sudo snap install laravel-docs-app --edge
 
 #############################php/python/pg###########################################################
  sleep 3
