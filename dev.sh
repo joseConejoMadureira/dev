@@ -61,6 +61,7 @@ sudo snap install postman
 sudo snap install  discord
 sudo snap install mysql-workbench-community
 sudo snap install laravel-docs-app --edge
+sudo snap install obs-studio
 
 #############################php/python/pg###########################################################
  sleep 3
