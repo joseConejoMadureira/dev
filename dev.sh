@@ -108,8 +108,9 @@ sudo snap install obs-studio
  sudo  npm install --location=global yarn
  sudo npm install --location=global newman
  sudo npm install --location=global gulp-cli
+ sudo  npm install --location=global bower
+ sudo  npm install --location=global webpack
  sudo  npm audit fix --force
-
 ########################### docker ###################################
 sudo apt update
 sudo apt install -y  apt-transport-https ca-certificates curl software-properties-common
