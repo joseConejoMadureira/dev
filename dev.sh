@@ -63,6 +63,7 @@ sudo snap install mysql-workbench-community
 sudo snap install laravel-docs-app --edge
 sudo snap install obs-studio
 sudo apt install -y  gdebi-core
+sudo apt install -y  makepasswd
 
 #############################php/python/pg###########################################################
  sleep 3
