@@ -64,6 +64,10 @@ sudo snap install laravel-docs-app --edge
 sudo snap install obs-studio
 sudo apt install -y  gdebi-core
 sudo apt install -y  makepasswd
+sudo apt install -y qt5-qmake 
+sudo apt install -y qtbase5-dev-tools 
+sudo apt install -y qttools5-dev-tools
+
 
 #############################php/python/pg###########################################################
  sleep 3
