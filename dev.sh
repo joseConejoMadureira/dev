@@ -29,7 +29,7 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
  
  wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
  sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
- 
+ sudo echo -S |  add-apt-repository ppa:jonmagon/crow-translate 
  sudo  apt-get update
 
 ######################### feramentas ############################################
@@ -67,6 +67,7 @@ sudo apt install -y  makepasswd
 sudo apt install -y qt5-qmake 
 sudo apt install -y qtbase5-dev-tools 
 sudo apt install -y qttools5-dev-tools
+sudo apt install -y crow-translate
 
 
 #############################php/python/pg###########################################################
