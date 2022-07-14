@@ -97,6 +97,7 @@ sudo apt install -y crow-translate
  sudo  apt install -y composer
  sudo  apt install -y php-xdebug
  sudo  apt install -y php-mysql
+ sudo apt install -y  phpunit
 
 ########################### npm/node/angular/vue/react###################################
  sleep 3
