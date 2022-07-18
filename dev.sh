@@ -68,6 +68,7 @@ sudo apt install -y qt5-qmake
 sudo apt install -y qtbase5-dev-tools 
 sudo apt install -y qttools5-dev-tools
 sudo apt install -y crow-translate
+sudo apt install -y  sqlite3
 
 
 #############################php/python/pg###########################################################
