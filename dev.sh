@@ -71,6 +71,7 @@ sudo apt install -y crow-translate
 sudo apt install -y  sqlite3
 
 
+
 #############################php/python/pg###########################################################
  sleep 3
 
@@ -99,6 +100,7 @@ sudo apt install -y  sqlite3
  sudo  apt install -y php-xdebug
  sudo  apt install -y php-mysql
  sudo apt install -y  phpunit
+ sudo apt install -y  php-sqlite3
 
 ########################### npm/node/angular/vue/react###################################
  sleep 3
