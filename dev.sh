@@ -69,7 +69,7 @@ sudo apt install -y qtbase5-dev-tools
 sudo apt install -y qttools5-dev-tools
 sudo apt install -y crow-translate
 sudo apt install -y  sqlite3
-
+sudo snap install joplin-desktop
 
 
 #############################php/python/pg###########################################################
