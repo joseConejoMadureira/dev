@@ -30,6 +30,7 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
  wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
  sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
  sudo echo -S |  add-apt-repository ppa:jonmagon/crow-translate 
+ sudo echo -S | add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
  sudo  apt-get update
 
 ######################### feramentas ############################################
@@ -70,7 +71,7 @@ sudo apt install -y qttools5-dev-tools
 sudo apt install -y crow-translate
 sudo apt install -y  sqlite3
 sudo snap install joplin-desktop
-
+sudo apt install -y wine-stable
 
 #############################php/python/pg###########################################################
  sleep 3
