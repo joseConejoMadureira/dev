@@ -122,6 +122,7 @@ sudo apt install -y wine-stable
  sudo npm install --location=global gulp-cli
  sudo  npm install --location=global bower
  sudo  npm install --location=global webpack
+ sudo  npm install --location=global live-server
  sudo  npm audit fix --force
 ########################### docker ###################################
 sudo apt update
