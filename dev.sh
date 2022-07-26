@@ -144,6 +144,14 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ########################## github cli ################################
 sudo apt  install -y  gh
 
+########################### opengl ##################################
+
+sudo apt install -y libqt5opengl5
+sudo apt install -y cmake pkg-config
+sudo apt install -y mesa-utils libglu1-mesa-dev freeglut3-dev mesa-common-dev
+sudo apt install -y libglew-dev libglfw3-dev libglm-dev
+sudo apt install -y libao-dev libmpg123-dev
+
 ########################### atualizacao e limpeza ###################################
 
  sleep 3
