@@ -37,6 +37,11 @@ sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
     https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
     sudo tee /etc/apt/sources.list.d/hashicorp.list
+wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+sudo apt-get install gnupg
+wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list
 
  sudo  apt-get update
 
@@ -79,10 +84,11 @@ sudo apt install -y crow-translate
 sudo apt install -y  sqlite3
 sudo snap install joplin-desktop
 sudo apt install -y wine-stable
-sudo apt install terraform
+sudo apt install -y terraform
 touch ~/.bashrc
 terraform -install-autocomplete
-
+sudo apt-get install -y  libssl1.1
+sudo apt-get install -y mongodb-org
 
 #############################php/python/pg###########################################################
  sleep 3
