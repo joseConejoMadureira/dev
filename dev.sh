@@ -31,6 +31,13 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
  sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
  sudo echo -S |  add-apt-repository ppa:jonmagon/crow-translate 
  sudo echo -S | add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+ wget -O- https://apt.releases.hashicorp.com/gpg | \
+    gpg --dearmor | \
+sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+    https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+    sudo tee /etc/apt/sources.list.d/hashicorp.list
+
  sudo  apt-get update
 
 ######################### feramentas ############################################
@@ -72,6 +79,10 @@ sudo apt install -y crow-translate
 sudo apt install -y  sqlite3
 sudo snap install joplin-desktop
 sudo apt install -y wine-stable
+sudo apt install terraform
+touch ~/.bashrc
+terraform -install-autocomplete
+
 
 #############################php/python/pg###########################################################
  sleep 3
