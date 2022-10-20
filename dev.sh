@@ -119,6 +119,7 @@ sudo apt-get install -y mongodb-org
  sudo  apt install -y php-mysql
  sudo apt install -y  phpunit
  sudo apt install -y  php-sqlite3
+ sudo apt-get install -y php-mongodb
 
 ########################### npm/node/angular/vue/react###################################
  sleep 3
