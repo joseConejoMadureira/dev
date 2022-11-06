@@ -89,6 +89,8 @@ touch ~/.bashrc
 terraform -install-autocomplete
 sudo apt-get install -y  libssl1.1
 sudo apt-get install -y mongodb-org
+sudo snap install bluez
+
 
 #############################php/python/pg###########################################################
  sleep 3
