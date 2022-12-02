@@ -4,7 +4,7 @@ read varname
 
 cd ..
 
-sudo mv  $varname   /var/www/html/
+sudo cp -r  $varname   /var/www/html/
 
 sudo chgrp -R www-data /var/www/html/$varname/
 
