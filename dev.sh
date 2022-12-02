@@ -24,11 +24,6 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > pa
  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
  sudo rm -f packages.microsoft.gpg
- wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
- sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
- 
- wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
- sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
  sudo echo -S |  add-apt-repository ppa:jonmagon/crow-translate 
  sudo echo -S | add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
  wget -O- https://apt.releases.hashicorp.com/gpg | \
@@ -90,7 +85,7 @@ terraform -install-autocomplete
 sudo apt-get install -y  libssl1.1
 sudo apt-get install -y mongodb-org
 sudo snap install bluez
-
+sudo apt install zsh -y
 
 #############################php/python/pg###########################################################
  sleep 3
