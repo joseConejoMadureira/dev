@@ -122,6 +122,7 @@ sudo snap install bluez
  sudo apt install -y  phpunit
  sudo apt install -y  php-sqlite3
  sudo apt-get install -y php-mongodb
+ sudo apt install -y php-fpm
 
 ########################### npm/node/angular/vue/react###################################
  sleep 3
