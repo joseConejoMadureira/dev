@@ -116,7 +116,8 @@ sudo apt install zsh -y
  sudo apt-get install -y php-mongodb
  sudo apt-get  install  -y nginx
  sudo apt install -y php-fpm
-sudo ufw allow 'Nginx Full'
+ sudo ufw allow 'Nginx Full'
+
 ########################### npm/node/angular/vue/react###################################
  sleep 3
 
