@@ -89,9 +89,9 @@ sudo apt install zsh -y
 
 #############################php/python/pg###########################################################
  sleep 3
-
- sudo  apt install -y python3
- sudo  apt install -y php
+ sudo apt-get  install  -y nginx
+ sudo ufw allow 'Nginx Full'
+ sudo apt install -y php-fpm
  sudo  apt install -y curl
  sudo  apt install -y php-xmlrpc
  sudo  apt install -y phpoap

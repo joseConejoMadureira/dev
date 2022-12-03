@@ -1,4 +1,6 @@
- sudo  apt install -y php
+ sudo apt-get  install  -y nginx
+ sudo ufw allow 'Nginx Full'
+ sudo apt install -y php-fpm
  sudo  apt install -y curl
  sudo  apt install -y php-xmlrpc
  sudo  apt install -y phpoap
@@ -20,6 +22,6 @@
  sudo apt install -y  phpunit
  sudo apt install -y  php-sqlite3
  sudo apt-get install -y php-mongodb
- sudo apt-get  install  -y nginx
- sudo apt install -y php-fpm
- sudo ufw allow 'Nginx Full'
+ 
+ 
+ 
