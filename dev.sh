@@ -93,8 +93,6 @@ sudo apt install zsh -y
  sudo  apt install -y python3
  sudo  apt install -y php
  sudo  apt install -y curl
- sudo  apt install -y apache2
- sudo  apt install -y libapache2-mod-php
  sudo  apt install -y php-xmlrpc
  sudo  apt install -y phpoap
  sudo  apt install -y php-gd
@@ -108,7 +106,6 @@ sudo apt install zsh -y
  sudo  apt install -y php-curl
  sudo  apt install -y php-mbstring
  sudo  a2enmod php 
- sudo  service apache2 restart
  sudo  apt install -y postgresql
  sudo  apt install -y phppgadmin
  sudo  apt install -y composer
@@ -117,8 +114,9 @@ sudo apt install zsh -y
  sudo apt install -y  phpunit
  sudo apt install -y  php-sqlite3
  sudo apt-get install -y php-mongodb
+ sudo apt-get  install  -y nginx
  sudo apt install -y php-fpm
-
+sudo ufw allow 'Nginx Full'
 ########################### npm/node/angular/vue/react###################################
  sleep 3
 
