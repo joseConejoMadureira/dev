@@ -104,8 +104,7 @@ sudo apt install zsh -y
  sudo  apt install -y php-json
  sudo  apt install -y php-pgsql
  sudo  apt install -y php-curl
- sudo  apt install -y php-mbstring
- sudo  a2enmod php 
+ sudo  apt install -y php-mbstring 
  sudo  apt install -y postgresql
  sudo  apt install -y phppgadmin
  sudo  apt install -y composer
